@@ -1,0 +1,33 @@
+{
+    "Actor":{
+        "types": ["character", "npc", "vehicle"],
+    },
+
+
+    "Item":{
+        "types":[
+            "weapon"
+        ],
+        "templates": {
+            "itemDescription": {
+                "description": {
+                  "value": ""
+                },
+                "source": ""
+              },      
+            "phsyicalItem": {
+                "quantity": 1,
+                "price": 0,
+                "weight": 0,
+                "availability": ""
+            },
+        },
+        "weapon":{
+            "templates": ["itemDescription","phsyicalItem"],
+            "isExotic": false,
+            "dmgStr": "",
+            "dmgBonus": 0,
+            "atkBonus": 0,
+        }
+    }
+}
